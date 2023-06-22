@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express();
+//const app = express();
 const router = express.Router()
-const User = require('../model/user')
+//const User = require('../model/user')
 const verify = require('../routes/verifytoken')
 
 const {userPosts} = require('../controller/post')
